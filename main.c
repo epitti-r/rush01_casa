@@ -9,8 +9,8 @@ int		**solucion_sudoku(int **numeros);
 
 int		main(int argc, char **argv)
 {
-	int **numeros;
-	int **solucion;
+	int		**numeros;
+	int		**solucion;
 
 	if (argc == 2)
 	{

@@ -8,8 +8,8 @@ void	ft_putchar(char c)
 
 void	muestra_numeros(int **numeros)
 {
-	int filas;
-	int columnas;
+	int		filas;
+	int		columnas;
 
 	filas = 0;
 	while (filas < 4)
@@ -29,7 +29,7 @@ void	muestra_numeros(int **numeros)
 
 int		chequear_numeros(char **argv)
 {
-	int pos;
+	int		pos;
 
 	pos = 0;
 	while (argv[0][pos])
@@ -50,10 +50,10 @@ int		chequear_numeros(char **argv)
 
 int		**leer_numeros(char **argv)
 {
-	int filas;
-	int columnas;
-	int **numeros;
-	int pos;
+	int		filas;
+	int		columnas;
+	int		**numeros;
+	int		pos;
 
 	filas = 0;
 	pos = 0;
@@ -78,9 +78,9 @@ int		**leer_numeros(char **argv)
 
 int		**solucion_sudoku(int **numeros)
 {
-    int **solucion;
-	int filas;
-	int columnas;
+    int		**solucion;
+	int		filas;
+	int		columnas;
 
 	filas = 0;
 	solucion = (int **)malloc(sizeof(int *) * 4 + 1);
